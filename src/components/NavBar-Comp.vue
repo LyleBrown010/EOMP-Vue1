@@ -2,15 +2,15 @@
     <nav>
         <div class="topnav">
             <router-link id="links" to="/">Home</router-link>
-            <router-link id="links" to="/">About</router-link>
-            <router-link id="links" to="/">Resume</router-link>
-            <router-link id="links" to="/">Projects</router-link>
-            <router-link id="links" to="/">Testimonials</router-link>
-            <router-link id="links" to="/">Contact</router-link>
+            <router-link id="links" to="/about">About</router-link>
+            <router-link id="links" to="/resume">Resume</router-link>
+            <router-link id="links" to="/projects">Projects</router-link>
+            <router-link id="links" to="/testimonials">Testimonials</router-link>
+            <router-link id="links" to="/contact">Contact</router-link>
         </div>
     </nav>
 </template>
-<script></script>
+<script>
 export default {
     
 }
